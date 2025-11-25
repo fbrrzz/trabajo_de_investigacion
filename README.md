@@ -1,6 +1,6 @@
 COMANDOS PARA EJECUTAR CADA COMUNICACIÓN: 
 
-=============================
+
 Comunicación con HDD
 =============================
 
@@ -9,14 +9,10 @@ cd hdd_ipc
 
 g++ ibex_worker_file.cpp -o ibex_worker_file $(pkg-config --cflags --libs ibex) -lrt
 
-./ibex_worker_file 
-
-En otra terminal: 
-
 python3 client_file.py
 
 
-===========================
+
 Memoria Compartida 
 ===========================
 
@@ -34,7 +30,7 @@ En  terminal 2:
 python3 controller.py
 
 
-=========================
+
 Message Queue
 =========================
 
@@ -53,7 +49,7 @@ python3 client_mq.py
 
 
 
-=========================
+
 Named Pipes
 =========================
 
@@ -75,7 +71,6 @@ En otra terminal 2:
 python3 client_fifo.py
 
 
-========================
 Semaforos
 ========================
 
@@ -93,7 +88,7 @@ En otra terminal 2:
 python3 client_sem.py
 
 
-=========================
+
 Sockets
 =========================
 
