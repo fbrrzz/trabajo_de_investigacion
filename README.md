@@ -1,5 +1,41 @@
-COMANDOS PARA EJECUTAR CADA COMUNICACIÓN: 
+INSTALACIÓN DE IBEX: 
+================================
+sudo apt-get install -y g++ gcc flex bison cmake git pkg-config
 
+mkdir Ibex && cd Ibex
+
+git clone https://github.com/ibex-team/ibex-lib.git
+
+cd ibex-lib
+
+mkdir build
+
+cd build 
+
+cmake -DLP_LIB=soplex ..
+
+make 
+
+sudo make install 
+
+PARA VERIFICAR LA INSTALACIÓN: 
+====================================
+
+ibexsolve -v
+
+BUSQUEDA DE PROBLEMA DE OPTIMIZACIÓN: 
+===================================== 
+cada worker necesita un problema de optimización por lo cual se usa el archivo ex3_1_3.bch
+para encontrarlo necesitamos los siguientes comandos: 
+
+para encontrar la ruta completa: 
+sudo find / -name "ex3_1_3.bch"
+
+Luego de obtener la ruta se tiene que cambiar la linea que esta comentada en cada codigo de c++
+
+
+COMANDOS PARA EJECUTAR CADA COMUNICACIÓN: 
+=======================================
 
 Comunicación con HDD
 =============================
