@@ -22,10 +22,6 @@ cd memoria
 
 g++ ibex_worker.cpp -o ibex_worker $(pkg-config --cflags --libs ibex) -lrt
 
-./ibex_worker
-
-
-En  terminal 2: 
 
 python3 controller.py
 
