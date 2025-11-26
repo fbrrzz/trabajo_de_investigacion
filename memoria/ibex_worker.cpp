@@ -49,7 +49,7 @@ int main() {
     cout << "[C++] Ibex worker iniciado" << endl;
 
     
-    System sys("/home/labeit/Ibex/ibex-lib/benchs/optim/easy/ex3_1_3.bch");
+    System sys("/home/labeit/Ibex/ibex-lib/benchs/optim/easy/ex3_1_3.bch"); //Cambiar la ruta
 
     bool running = true;
     while (running) {
