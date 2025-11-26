@@ -26,7 +26,7 @@ int main() {
     const string RES_FILE = "res.json";
 
     
-    System sys("/home/labeit/Ibex/ibex-lib/benchs/optim/easy/ex3_1_3.bch");
+    System sys("/home/labeit/Ibex/ibex-lib/benchs/optim/easy/ex3_1_3.bch"); //Cambiar la ruta
 
     bool running = true;
     while (running) {
