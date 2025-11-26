@@ -56,7 +56,7 @@ int main() {
     }
 
     
-    System sys("/home/labeit/Ibex/ibex-lib/benchs/optim/easy/ex3_1_3.bch");
+    System sys("/home/labeit/Ibex/ibex-lib/benchs/optim/easy/ex3_1_3.bch"); //Cambiar la ruta
 
     cout << "[C++] Worker listo. Esperando señales..." << endl;
 
