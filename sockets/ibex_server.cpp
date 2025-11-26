@@ -64,7 +64,7 @@ int main() {
     cout << "[C++] Cliente conectado." << endl;
 
     
-    System sys("/home/labeit/Ibex/ibex-lib/benchs/optim/easy/ex3_1_3.bch");
+    System sys("/home/labeit/Ibex/ibex-lib/benchs/optim/easy/ex3_1_3.bch"); //Cambiar la ruta
 
     while (true) {
         char buffer[4096] = {0};
